@@ -64,7 +64,6 @@ Sexto, instalamos composer, la cual es una herramienta popular de administració
 (Para evitar problemas cojo la propiedad del directorio /var/www/html) -> `sudo chown -R sergi:sergi /var/www/html/`
 `sudo composer require mongodb/mongodb`
 
-![NoSQLApacheMongoDBInjection](./doc/img/runlog4shellonserver.png)
 ## MITIGACIÓN
 
 Para mitigarlo, sanitizaremos los valores de entrada del formulario forzándolos a que sean estrings. Lo veremos en los vídeos del tutorial de youtube, pero básicamente
