@@ -59,7 +59,7 @@ $ exit
 $ sudo systemctl restart apache
 ```
 
-Sexto, instalamos composer, la cual es una herramienta popular de administración de dependencias para PHP y la cual omitiremos el tutorial de su instalación, podéis encontrar en su web oficial el tutorial para instalarlo, y una vez instalado, ejecutaremos el siguiente comando para añadir a php las dependencias de mongo de be y terminar de vincularlos, y todo esto estará en apache.
+Sexto, instalamos composer [TUTORIAL DE INSTALACION DE COMPOSER](https://installati.one/kalilinux/composer/), la cual es una herramienta popular de administración de dependencias para PHP y la cual omitiremos el tutorial de su instalación, podéis encontrar en su web oficial el tutorial para instalarlo, y una vez instalado, ejecutaremos el siguiente comando para añadir a php las dependencias de mongo de be y terminar de vincularlos, y todo esto estará en apache.
 
 (Para evitar problemas cojo la propiedad del directorio /var/www/html) -> `sudo chown -R sergi:sergi /var/www/html/`
 `sudo composer require mongodb/mongodb`
